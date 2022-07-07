@@ -51,3 +51,42 @@ span {
     text-align: center;
     color: slategray;
 }
+
+footer {
+    text-align: center;
+    background: black;
+    width: inherit;
+    height: 10vw;
+}
+
+.humble {
+    color: red;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.do-it {
+    color: #fff;
+}
+
+.input-amount {
+    color: slategray;
+    text-align: center;
+    padding: 0px;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid silver;
+}
+
+.give-away {
+    /* position: absolute; */
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(172, 71, 71));
+    color: white;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-left: 45%;
+    bottom: 50px;
+    top: 50%;
+}
