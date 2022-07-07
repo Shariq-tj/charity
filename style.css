@@ -31,7 +31,7 @@ span {
 .button {
     position: absolute;
     text-decoration: none;
-    background-image: linear-gradient(blue, rgb(181, 181, 243));
+    background-image: linear-gradient(red, rgb(172, 71, 71));
     color: #fff;
     font-weight: 700;
     padding: 15px 20px;
@@ -43,8 +43,7 @@ span {
 .donation {
     text-align: center;
     margin-top: 5%;
-    font-size: xx-large;
-    font-weight: 800;
+    font-size: 50px;
 }
 
 .effort {
@@ -56,7 +55,7 @@ footer {
     text-align: center;
     background: black;
     width: inherit;
-    height: 10vw;
+    height: 15vw;
 }
 
 .humble {
@@ -107,7 +106,7 @@ footer {
 }
 
 .a200tk {
-    background-color: aqua;
+    background-image: linear-gradient(red, rgb(172, 71, 71));
     width: 100px;
     height: 100px;
     margin-left: 10%;
@@ -145,4 +144,60 @@ footer {
     padding-left: 40px;
     border-radius: 10px;
     box-shadow: 20px 20px 40px gray;
+}
+
+.about-us {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.donate-plan {
+    margin-top: 120px;
+}
+
+.donate-plan h1 {
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.food {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+}
+
+.food .food-family {
+    background: rgb(150, 255, 232);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
+}
+
+.food .shelter-family {
+    background: rgb(246, 200, 255);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
+}
+
+.food .education-family {
+    background: rgb(166, 194, 255);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
 }
