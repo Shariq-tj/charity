@@ -1,203 +1,278 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.top-banner {
-    display: flex;
-    justify-content: center;
-}
-
-span {
-    padding-left: 25%;
-}
-
-.first-text {
-    color: aliceblue;
-    position: absolute;
-    top: 25%;
-    left: 30%;
-    font-size: 35px;
-}
-
-.second-text {
-    color: bisque;
-    position: absolute;
-    bottom: 50%;
-    left: 35%;
-}
-
-.button {
-    position: absolute;
-    text-decoration: none;
-    background-image: linear-gradient(red, rgb(172, 71, 71));
-    color: #fff;
-    font-weight: 700;
-    padding: 15px 20px;
-    border-radius: 5px;
-    margin-left: 47%;
-    bottom: 40%;
-}
-
-.donation {
-    text-align: center;
-    margin-top: 5%;
-    font-size: 50px;
-}
-
-.effort {
-    text-align: center;
-    color: slategray;
-}
-
-footer {
-    text-align: center;
-    background: black;
-    width: inherit;
-    height: 15vw;
-}
-
-.humble {
-    color: red;
-    font-family: cursive;
-    font-size: 50px;
-}
-
-.do-it {
-    color: #fff;
-}
-
-.input-amount {
-    color: slategray;
-    text-align: center;
-    padding: 0px;
-    height: 20px;
-    border: none;
-    border-bottom: 2px solid silver;
-}
-
-.give-away {
-    position: absolute;
-    text-decoration: none;
-    background-image: linear-gradient(red, rgb(172, 71, 71));
-    color: white;
-    font-weight: 700;
-    padding: 15px 20px;
-    border-radius: 10px;
-    margin-left: 45%;
-}
-
-.taka {
-    display: flex;
-    margin-bottom: 50px;
-    box-sizing: border-box;
-}
-
-.a100tk {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    margin-left: 10%;
-    margin-right: 50%;
-    padding-left: 40px;
-    border-radius: 10px;
-    box-shadow: 20px 20px 40px gray;
-}
-
-.a200tk {
-    background-image: linear-gradient(red, rgb(172, 71, 71));
-    width: 100px;
-    height: 100px;
-    margin-left: 10%;
-    margin-right: 50%;
-    padding-left: 40px;
-    border-radius: 10px;
-    box-shadow: 20px 20px 40px gray;
-}
-
-.a500tk {
-    width: 100px;
-    height: 100px;
-    margin-left: 10%;
-    margin-right: 50%;
-    padding-left: 40px;
-    border-radius: 10px;
-    box-shadow: 20px 20px 40px gray;
-}
-
-.a1000tk {
-    width: 100px;
-    height: 100px;
-    margin-left: 10%;
-    margin-right: 50%;
-    padding-left: 40px;
-    border-radius: 10px;
-    box-shadow: 20px 20px 40px gray;
-}
-
-.a5000tk {
-    width: 100px;
-    height: 100px;
-    margin-left: 10%;
-    margin-right: 50%;
-    padding-left: 40px;
-    border-radius: 10px;
-    box-shadow: 20px 20px 40px gray;
-}
-
-.about-us {
-    text-align: center;
-    margin-bottom: 150px;
-}
-
-.donate-plan {
-    margin-top: 120px;
-}
-
-.donate-plan h1 {
-    font-family: 'Allura', cursive;
-    font-size: 52px;
-    margin-bottom: 60px;
-    text-align: center;
-}
-
-.food {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    text-align: center;
-}
-
-.food .food-family {
-    background: rgb(150, 255, 232);
-    margin: 5px;
-    margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
-    line-height: 20px;
-    color: black;
-    position: relative;
-}
-
-.food .shelter-family {
-    background: rgb(246, 200, 255);
-    margin: 5px;
-    margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
-    line-height: 20px;
-    color: black;
-    position: relative;
-}
-
-.food .education-family {
-    background: rgb(166, 194, 255);
-    margin: 5px;
-    margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
-    line-height: 20px;
-    color: black;
-    position: relative;
-}
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .top-banner {
+        display: flex;
+        justify-content: center;
+    }
+    
+    span {
+        padding-left: 25%;
+    }
+    
+    .first-text {
+        color: aliceblue;
+        position: absolute;
+        top: 25%;
+        left: 30%;
+        font-size: 35px;
+    }
+    
+    .second-text {
+        color: bisque;
+        position: absolute;
+        bottom: 50%;
+        left: 35%;
+    }
+    
+    .button {
+        position: absolute;
+        text-decoration: none;
+        background-image: linear-gradient(red, rgb(172, 71, 71));
+        color: #fff;
+        font-weight: 700;
+        padding: 15px 20px;
+        border-radius: 5px;
+        margin-left: 47%;
+        bottom: 40%;
+    }
+    
+    .donation {
+        text-align: center;
+        margin-top: 5%;
+        font-size: 50px;
+    }
+    
+    .effort {
+        text-align: center;
+        color: slategray;
+    }
+    
+    footer {
+        text-align: center;
+        background: black;
+        width: inherit;
+        height: 15vw;
+    }
+    
+    .humble {
+        color: red;
+        font-family: cursive;
+        font-size: 50px;
+    }
+    
+    .do-it {
+        color: #fff;
+    }
+    
+    .input-amount {
+        color: slategray;
+        text-align: center;
+        padding: 0px;
+        height: 20px;
+        border: none;
+        border-bottom: 2px solid silver;
+    }
+    
+    .give-away {
+        position: absolute;
+        text-decoration: none;
+        background-image: linear-gradient(red, rgb(172, 71, 71));
+        color: white;
+        font-weight: 700;
+        padding: 15px 20px;
+        border-radius: 10px;
+        margin-left: 45%;
+    }
+    
+    .taka {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+    }
+    
+    .a100tk {
+        background: rgb(216, 235, 255);
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 100px;
+        padding: 30px;
+        line-height: 20px;
+        color: black;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+    .a200tk {
+        background: rgb(250, 210, 210);
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 100px;
+        padding: 30px;
+        line-height: 20px;
+        color: black;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+    .a500tk {
+        background: rgb(216, 235, 255);
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 100px;
+        padding: 30px;
+        line-height: 20px;
+        color: black;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+    .a1000tk {
+        background: rgb(216, 235, 255);
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 100px;
+        padding: 30px;
+        line-height: 20px;
+        color: black;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+    .a5000tk {
+        background: rgb(216, 235, 255);
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 100px;
+        padding: 30px;
+        line-height: 20px;
+        color: black;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+    .about-us {
+        text-align: center;
+        margin-bottom: 150px;
+    }
+    
+    .donate-plan {
+        margin-top: 120px;
+    }
+    
+    .donate-plan h1 {
+        font-family: 'Allura', cursive;
+        font-size: 52px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    
+    .food {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+    }
+    
+    .food .food-family {
+        background: rgb(150, 255, 232);
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 300px;
+        padding: 20px;
+        line-height: 20px;
+        color: black;
+        position: relative;
+    }
+    
+    .food .shelter-family {
+        background: rgb(246, 200, 255);
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 300px;
+        padding: 20px;
+        line-height: 20px;
+        color: black;
+        position: relative;
+    }
+    
+    .food .education-family {
+        background: rgb(166, 194, 255);
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 300px;
+        padding: 20px;
+        line-height: 20px;
+        color: black;
+        position: relative;
+    }
+    
+    .half-width {
+        width: 50%;
+        padding: 5%;
+    }
+    
+    .half-width img {
+        width: 80%;
+    }
+    
+    .link-button {
+        text-decoration: none;
+        background-image: linear-gradient(red, rgb(172, 71, 71));
+        ;
+        color: #fff;
+        font-weight: 700;
+        padding: 10px 40px;
+        border-radius: 5px;
+    }
+    
+    .half-width h1 {
+        font-size: 50px;
+    }
+    
+    .banner {
+        margin-left: 50px;
+    }
+    
+    .banner img {
+        margin-left: 600px;
+    }
+    
+    .half-width p {
+        color: black;
+        font-style: oblique
+    }
+    
+    .input-group {
+        display: flex;
+        align-items: center;
+        left: 50%;
+        bottom: 10%;
+        justify-content: center;
+    }
+    
+    .input {
+        margin-left: 10px;
+        min-height: 50px;
+        min-width: 150px;
+        padding: .5px;
+        color: black;
+        font-size: 15px;
+        border: 1px solid gray;
+        border-radius: 6px 0 0 6px;
+        background-color: gray;
+    }
+    
+    .button-submit {
+        min-height: 50px;
+        padding: 15px;
+        border: none;
+        border-radius: 0 6px 6px 0;
+        background-color: #ff0000;
+        color: black;
+        font-size: 15px;
+    }
