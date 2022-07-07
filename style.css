@@ -7,7 +7,6 @@ body {
 .top-banner {
     display: flex;
     justify-content: center;
-    /* position: relative; */
 }
 
 span {
@@ -51,12 +50,4 @@ span {
 .effort {
     text-align: center;
     color: slategray;
-}
-
-.a100 {
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
-    border-radius: 10px;
 }
