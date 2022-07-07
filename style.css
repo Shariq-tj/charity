@@ -79,7 +79,7 @@ footer {
 }
 
 .give-away {
-    /* position: absolute; */
+    position: absolute;
     text-decoration: none;
     background-image: linear-gradient(red, rgb(172, 71, 71));
     color: white;
@@ -87,6 +87,62 @@ footer {
     padding: 15px 20px;
     border-radius: 10px;
     margin-left: 45%;
-    bottom: 50px;
-    top: 50%;
+}
+
+.taka {
+    display: flex;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.a100tk {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px gray;
+}
+
+.a200tk {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px gray;
+}
+
+.a500tk {
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px gray;
+}
+
+.a1000tk {
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px gray;
+}
+
+.a5000tk {
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px gray;
 }
